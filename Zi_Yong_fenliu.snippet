@@ -1,6 +1,6 @@
 # > /*  APP开屏广告拦截，APP启动广告拦截！
 # > 某些APP要清除缓存或者重新安装APP，拦截广告才会生效！  
-# > 更新时间  2025-11-30 15: 48
+# > 更新时间  2025-12-19 23: 57
 # > */  
 
 # > 滴滴青桔（支付界面图片有误杀）
@@ -21,18 +21,18 @@ HOST, appldnld.apple.com, REJECT
 HOST, mesu.apple.com, REJECT
 HOST, xp.apple.com, REJECT
 HOST, gdmf.apple.com, REJECT
-HOST-SUFFIX,iadsdk.apple.com, REJECT
-HOST-SUFFIX,ads.internal.unity3d.com, REJECT
-HOST-SUFFIX,ads.prd.ie.internal.unity3d.com, REJECT
-HOST-SUFFIX,unityads.unity3d.com, REJECT
+HOST-SUFFIX, iadsdk.apple.com, REJECT
+HOST-SUFFIX, ads.internal.unity3d.com, REJECT
+HOST-SUFFIX, ads.prd.ie.internal.unity3d.com, REJECT
+HOST-SUFFIX, unityads.unity3d.com, REJECT
 
 # > 中国电信
-HOST,ad.21cn.com, REJECT
-HOST,ad.k.21cn.com, REJECT
-HOST,admarket.21cn.com, REJECT
-HOST,adshows.21cn.com, REJECT
+HOST, ad.21cn.com, REJECT
+HOST, ad.k.21cn.com, REJECT
+HOST, admarket.21cn.com, REJECT
+HOST, adshows.21cn.com, REJECT
 # > 中国联通
-HOST-SUFFIX,m1.ad.10010.com, REJECT
+HOST-SUFFIX, m1.ad.10010.com, REJECT
 # 广告联盟
 HOST, is.snssdk.com, REJECT
 HOST, open.e.kuaishou.com, REJECT
@@ -71,16 +71,16 @@ HOST-KEYWORD, static.wkanx.com, REJECT
 HOST-KEYWORD, config.y5en.com, REJECT
 # (X)
 # > 迅雷
-HOST,adsp.xunlei.com, REJECT
-HOST,etl.xlmc.sandai.net, REJECT
+HOST, adsp.xunlei.com, REJECT
+HOST, etl.xlmc.sandai.net, REJECT
 # > 深圳通
 # > 掌上公交
-HOST,quanguo.mygolbs.com, REJECT
+HOST, quanguo.mygolbs.com, REJECT
 # > 亲邻开门+微信小程序
-HOST,qadx.qinlinad.com, REJECT
+HOST, qadx.qinlinad.com, REJECT
 # > 捷停车
-HOST,e.jparking.cn, REJECT
-HOST,sytoss-market.oss-cn-shenzhen.aliyuncs.com, REJECT
+HOST, e.jparking.cn, REJECT
+HOST, sytoss-market.oss-cn-shenzhen.aliyuncs.com, REJECT
 #> 广州地铁乘车码 多个广告
 HOST, apis.alenable.com, REJECT
 # 建设银行
@@ -104,3 +104,5 @@ HOST, api.tuisong.baidu.com, REJECT
 HOST, track.addevent.com, REJECT
 # 读不舍手
 HOST, tnc3-alisc1.zijieapi.com, REJECT
+#随机数app内置广告
+HOST-KEYWORD, googleads.g.doubleclick.net, REJECT
